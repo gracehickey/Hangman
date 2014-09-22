@@ -1,35 +1,45 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Hangman
 	{
-		private String name;
-		private String letter;
-		private int attempts;
-	
-public Hangman(String n, String l, int a)
+		private String firstLetter;
+		private String secondLetter;
+		private String thirdLetter;
+		private String fourthLetter;
+		private String fifthLetter;
+		String[]fiveLetterArray={"moose", "achoo", "puppy", "candy", "tweet"};
+public Hangman(String fL, String sL, String tL, String fOL, String fFL)
 	{
-	name = n;
-	letter = l;
-	attempts = a;                                                                                                                                                                                                                                                                                                                                
+	firstLetter = fL;
+	secondLetter = sL;
+	thirdLetter = tL;
+	fourthLetter = fOL;
+	fifthLetter = fFL;
 	}
-public String getName()
+public String getfirstLetter()
 	{
-	return name;
+	return firstLetter;
 	}
-public String getLetter()
+public String getsecondLetter()
 	{
-	return letter;
+	return secondLetter;
 	}
-public int getAttempts()
+public String getthirdLetter()
 	{
-	return attempts;
+	return thirdLetter;
+	}
+public String getfourthLetter()
+	{
+	return fourthLetter;
+	}
+public String getfifthLetter()
+	{
+	return fifthLetter;
 	}
                                                                                       
 	public static void main(String[] args)
 		{
-		String arrayWord = "a";
-		if(Word.contains = "a")
-			{
-			
-			}
+		
+
 
 	}
