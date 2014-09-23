@@ -8,6 +8,8 @@ public class Hangman
 		private String fourthLetter;
 		private String fifthLetter;
 		String[]fiveLetterArray={"moose", "achoo", "puppy", "candy", "tweet"};
+		int fiveLetterArray = (int)(Math.random()*5) +1
+		System.out.print("Enter the word");
 public Hangman(String fL, String sL, String tL, String fOL, String fFL)
 	{
 	firstLetter = fL;
